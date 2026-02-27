@@ -1,4 +1,4 @@
-const CACHE = "dnd-oneshot-v1";
+const CACHE = "dnd-oneshot-v2";
 
 const ASSETS = [
   "./",
