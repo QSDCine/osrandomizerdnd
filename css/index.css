@@ -200,3 +200,15 @@ dialog p {
   button { padding: 10px 12px; }
   button.big { padding: 12px 14px; }
 }
+
+.mode {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap; /* por si en móvil no cabe */
+    max-width: 300px;
+padding-left: 25px;
+    padding-right: 5px;
+}
+
+
