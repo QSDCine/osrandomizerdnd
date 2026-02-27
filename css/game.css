@@ -183,3 +183,7 @@ button.big {
   opacity: 1;
   transform: translateX(-50%) translateY(-3px);
 }
+
+.allbox {
+  display: none;
+}
