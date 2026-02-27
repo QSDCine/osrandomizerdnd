@@ -1,1 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Generador One-shot D&amp;D</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icon-192.png" />
+</head>
+<body class="dark">
+  <main class="wrap">
+    <h1 id="title"></h1>
 
+    <section class="card">
+      <h1 class="brand">D&amp;D One-shot</h1>
+
+      <fieldset class="mode">
+        <legend id="modeLegend"></legend>
+
+        <label class="radio">
+          <input type="radio" name="mode" value="simple" id="modeSimple" />
+          <span id="modeSimpleText"></span>
+        </label>
+
+        <label class="radio">
+          <input type="radio" name="mode" value="full" id="modeFull" />
+          <span id="modeFullText"></span>
+        </label>
+      </fieldset>
+
+      <div class="row">
+        <button id="btnInstructions" class="secondary"></button>
+        <button id="btnGo" class="primary big"></button>
+      </div>
+
+      <div class="row tiny">
+        <div class="lang-buttons">
+          <button id="btnLangEs" class="chip" type="button">Español</button>
+          <button id="btnLangEn" class="chip" type="button">English</button>
+        </div>
+
+        <button id="btnTheme" class="chip" type="button"></button>
+      </div>
+    </section>
+
+    <dialog id="dlg">
+      <h2 id="insTitle"></h2>
+      <p id="insBody"></p>
+      <form method="dialog">
+        <button class="primary">OK</button>
+      </form>
+    </dialog>
+  </main>
+
+  <script type="module" src="js/index.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./service-worker.js");
+    }
+  </script>
+</body>
+</html>

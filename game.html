@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>D&amp;D One-shot</title>
+  <link rel="stylesheet" href="css/game.css" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icon-192.png" />
+</head>
+<body class="dark">
+  <main class="wrap">
+    <section class="card header-card">
+      <header class="top">
+        <h1 id="title"></h1>
+        <button id="btnBack" class="secondary"></button>
+      </header>
+    </section>
+
+    <section class="card">
+      <div class="row">
+        <button id="btnGenerate" class="primary big"></button>
+        <button id="btnCopy" class="secondary"></button>
+      </div>
+
+      <h2 id="resultTitle" style="display:none;"></h2>
+
+      <div id="results" class="results"></div>
+
+      <h3 id="allBoxTitle" class="sr-only" style="display:none;">Texto completo</h3>
+      <div id="allBox" class="allbox" role="region" aria-labelledby="allBoxTitle"></div>
+    </section>
+  </main>
+
+  <script type="module" src="js/game.js"></script>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
