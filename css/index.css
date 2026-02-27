@@ -42,12 +42,15 @@ body {
               radial-gradient(900px 500px at 110% 15%, rgba(43, 108, 255, 0.18), transparent 60%),
               var(--bg);
   color: var(--text);
-  display: grid;
-  place-items: start center;
+
+  display: flex;
+  justify-content: center;   /* centra horizontal */
+  align-items: flex-start;   /* arriba pero centrado horizontalmente */
 }
 
 .wrap {
-  width: min(920px, 100%);
+  width: 100%;
+  max-width: 400px;
   padding: 24px 14px 30px;
 }
 
@@ -209,6 +212,16 @@ dialog p {
     max-width: 300px;
 padding-left: 25px;
     padding-right: 5px;
+}
+
+/* Espacio entre opciones */
+.mode .radio {
+ display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;  /* separación vertical entre radios */
+  padding-left: 8px;    /* separa del borde izquierdo */
+    padding-right: 8px;
 }
 
 

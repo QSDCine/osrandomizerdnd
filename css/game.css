@@ -42,11 +42,13 @@ body {
   color: var(--text);
   display: grid;
   place-items: start center;
+ padding: 10px;
 }
 
 .wrap {
   width: min(920px, 100%);
   padding: 24px 14px 30px;
+
 }
 
 .card {
@@ -56,7 +58,7 @@ body {
   padding: 18px;
   box-shadow: 0 10px 28px rgba(0,0,0,0.28);
   backdrop-filter: blur(10px);
-}
+ }
 
 .header-card { padding: 14px 18px; }
 

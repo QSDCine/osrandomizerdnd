@@ -6,7 +6,7 @@ export const I18N = {
 
     instructionsTitle: "Instrucciones",
     instructionsBody:
-      "Elige si quieres el one-shot SIN GANCHO o CON GANCHO.\nPulsa GENERAR para ir al generador.\nEn la siguiente pantalla puedes volver a generar y copiarlo entero.",
+      "Elige si quieres el one-shot SIN GANCHO o CON GANCHO. \n Se generarán OBJETIVOS, LUGARES y OPOSICIÓN, podrás usarlos para crear un one-shot.",
 
     themeLabel: "Tema",
     light: "Claro",
@@ -36,7 +36,7 @@ export const I18N = {
 
     instructionsTitle: "Instructions",
     instructionsBody:
-      "Choose whether you want NO HOOK or WITH HOOK.\nPress GENERATE to open the generator.\nOn the next screen you can reroll and copy everything.",
+      "Choose whether you want NO HOOK or WITH HOOK. \n OBJECTIVES, LOCATIONS and OPPOSITION will be generated, which you can use to create a one-shot.",
 
     themeLabel: "Theme",
     light: "Light",
